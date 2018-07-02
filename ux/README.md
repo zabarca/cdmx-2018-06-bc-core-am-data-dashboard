@@ -74,3 +74,6 @@ Todo esto se hace pensando en que su consulta será constante es por eso que tie
 ![alt text](imagenes/2.jpg)
 ![alt text](imagenes/3.jpg)
 ![alt text](imagenes/4.jpg)
+
+
+
