@@ -59,3 +59,24 @@ Prototipo en figma: (Adjuntar liga)
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
 ****
+<<<<<<< HEAD
+
+# Argumentacion de Diseño
+
+ El objetivo del *Data Dashboard* es crear un producto cuya funcionalidad sea tener al día los avances de las estudiantes a través de una interfaz que sea sencilla, intuitiva y fácil de usar. Este producto está pensado en las Training Manager para que su trabajo sea más eficiente ya que eras tienen la necesidad de revisar los avances y el progreso general y particular de las estudiantes de su propia sede y de las otras sedes.
+
+ Gracias a este producto se mostrará el avance del uso de la plataforma de aprendizaje LMS (Learning Managment System), también se encontrará información más específica del promedio de cada unidad y por subtema, así como también es importante mostrar el avance individual y detallado de cada estudiante.
+
+El Proponer un *Login* es para que las ***Training Manager***  tengan más confidencialidad, ya que ellas tienen información confidencial de todas las estudiantes. Las gráficas que se muestran fueron pensadas en su fácil lectura, ya que por su estructura se ven los datos de forma visual mucho más rápido ya que se requiere poder ver datos muy generales y a la vez también poder acceder a datos específicos.
+
+Todo esto se hace pensando en que su consulta será constante es por eso que tiene que ser una plataforma amigable y bastante intuitiva, los colores que utilizamos son los d Labratoria esto para seguir con la marca identificativa de laboratorio, Se muestra la propuesta gráfica del prototipo de Alta Fidelidad, se realizó en la plataforma *** FIGMA.***
+
+![alt text](imagenes/1.jpg)
+![alt text](imagenes/2.jpg)
+![alt text](imagenes/3.jpg)
+![alt text](imagenes/4.jpg)
+
+
+
+=======
+>>>>>>> 33de3c912b2d93957229cdc766b2ff0798f6f733
