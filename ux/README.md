@@ -59,6 +59,7 @@ Prototipo en figma: (Adjuntar liga)
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
 ****
+<<<<<<< HEAD
 
 # Argumentacion de Diseño
 
@@ -77,3 +78,5 @@ Todo esto se hace pensando en que su consulta será constante es por eso que tie
 
 
 
+=======
+>>>>>>> 33de3c912b2d93957229cdc766b2ff0798f6f733
