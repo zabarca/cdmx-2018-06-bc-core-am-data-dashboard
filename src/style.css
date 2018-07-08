@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+.renglon{
+  width: 100%;
+  border: 5px solid #ffe521;
+}
+#texto-inicio{
+  font-size: 19;
+  text-align: right;
+}
+#black{
+  background-color: black;
+  margin: auto;
+  /* position: relative; */
+  vertical-align: baseline;
+}
+/* verde lab #56f89a rosa lab#ff009e */
