@@ -1,18 +1,29 @@
-h1{
-  text-align: center;
-}
+
 .renglon{
   width: 100%;
   border: 5px solid #ffe521;
 }
 #texto-inicio{
-  font-size: 19;
+  font-size: 3;
   text-align: right;
 }
 #black{
   background-color: black;
-  margin: auto;
-  /* position: relative; */
-  vertical-align: baseline;
+  width: 90%;
+  margin:0 auto;
 }
-/* verde lab #56f89a rosa lab#ff009e */
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin:0 auto;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+  margin: 0.5rem;
+  background-color: #FF009A;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* verde lab #56f89a rosa lab#ff009e rosa alexandra#FF009A*/

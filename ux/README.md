@@ -8,11 +8,7 @@ Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde p
 <!-- (En esta fase es donde vamos a tener ese proceso de investigación y acercamiento con el usuario, es donde vamos a obtener el conocimiento para poder saber a quién vamos a llegar, pero de manera más profunda. Es tener la empatía y el acercamiento necesario para conocerlo.
 
 También vamos a tener en cuenta al negocio, sus objetivos y a los stakeholders(involucrados)). -->
-En Laboratoria, las Training Managers hacen un gran trabajo al analizar la
-mayor cantidad de datos posibles respecto al progreso de las estudiantes para
-apoyarlas en su aprendizaje. Esta actividad se ha entorpecido debido al uso actual
-de Spreadsheets de Google un elemento que nos es tan funcional por la cantidad de información que se
-analiza al mismo tiempo.
+En Laboratoria, las Training Managers hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. Esta actividad se ha entorpecido debido al uso actual de Spreadsheets de Google un elemento que nos es tan funcional por la cantidad de información que se analiza al mismo tiempo.
 <!-- __Usuarixs:__  (Toda la información que sepas de ellxs, ya sea porque las has podido observar o porque obtuviste datos directamente de ellas) -->
 Contactamos a tres de las principales usuarias de nuestro producto.
 *	Lucile Baratier de Ciudad de México
@@ -59,9 +55,7 @@ Lo que esperan del Data Dashboard:
 También coinciden que los datos más relevantes que les agradaria visualizar en particular son: número total de estudiantes, número de deserciones y porcentaje de avance en LMS (Learning Management System).
 
 #**Objetivos del negocio**
-Laboratoria tiene como objetivo empoderar al mayor número de mujeres a través de conocimiento en el
-ámbito Tech,  a la par las TM´s se encargan de darle seguimiento a las alumnas que están actualmente en
-el bootcamp siguiendo una rúbrica de evaluación para cada proyecto, lecturas y quizz realizados en el LMS, además de tener en cuenta las deserciones.
+Laboratoria tiene como objetivo empoderar al mayor número de mujeres a través de conocimiento en el ámbito Tech,  a la par las TM´s se encargan de darle seguimiento a las alumnas que están actualmente en el bootcamp siguiendo una rúbrica de evaluación para cada proyecto, lecturas y quizz realizados en el LMS, además de tener en cuenta las deserciones.
 
 #**Motivaciones del negocio para el data dashboard**
 En resumen se espera la siguiente funcionalidad del progama:
@@ -159,8 +153,3 @@ Todo esto se hace pensando en que su consulta será constante es por eso que tie
 ![alt text](imagenes/2.jpg)
 ![alt text](imagenes/3.jpg)
 ![alt text](imagenes/4.jpg)
-
-
-
-=======
->>>>>>> 33de3c912b2d93957229cdc766b2ff0798f6f733

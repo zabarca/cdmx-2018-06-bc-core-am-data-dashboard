@@ -1,59 +1,79 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
-     <link rel="icon" href="./imagenes/laboratoria.ico">
+      <link rel="icon" href="./imagenes/laboratoria.ico"> <!--icono de laboratoria que se ve en la pestaña  -->
+     <!-- "meta hace la pagina escalable en los diferentes dispositivos" -->
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
   </head>
   <body>
+    <div class="contenedor">
     <header>
     <h1><img src="Laboratoria.png" style="margin-top: 10px"></h1>
     <hr class="renglon"></header>
 <div id= "texto-inicio">Trabajamos para ser la principal fuente de talento tech femenino de América Latina para el mundo, transformando el futuro de miles de mujeres y las empresas que las reciben. </div>
-<section id="data" class="container" style="display: none;"></section>
+<!-- <section id="data" class="container" style="display: none;"></section> -->
+<div class="container">
+  <form method="post" name="formulario" id="tabladata">
+    <h2 style="text-align:center">Selecciona la Sede</h2>
+    <table style="width:100%" class="table table-striped" >
+      <tr>
+        <th><div style="text-align:center">
+          <img src = "./imagenes/Peru.png" width="80" height="50"></br>
+          <input type="button" class="btn btn-warning btn-md" value="Mostrar Lima" id="Slima">
+          <input type="button" class="btn btn-warning btn-md" value="Limpiar Data" id="lreiniciar" onclick="window.location.reload()"> <br>
+          <input type="checkbox" value="LQuinta" id="quintalim">
+          <label for="quintalim">5a Generación</label>
+          <input type="checkbox" name="LCuarta" id="cuartalim">
+          <label for="cuartalim">4a Generación</label>
+          <input type="checkbox" name="LTercera" id="terceralim">
+          <label for="terceralim">3a Generación</label>
+        </div></th>
+        <th><div style="text-align:center">
+          <img src = "./imagenes/Mexico.png" width="80" height="50"></br>
+          <input type="button" class="btn btn-warning btn-md" value="Mostrar México" id="Scdmx">
+          <input type="button" class="btn btn-warning btn-md" value="Limpiar Data" id="creiniciar" onclick="window.location.reload()"> <br>
+          <input type="checkbox" value="MQuinta" id="quintacdmx">
+          <label for="quintacdmx">5a Generación</label>
+            <input type="checkbox" value="MCuarta" id="cuartacdmx">
+            <label for="cuartacdmx">4a Generación</label>
+            <input type="checkbox" value="MTercera" id="terceracdmx">
+            <label for="terceracdmx">3a Generación</label>
+          </div></th>
+        <th><div style="text-align:center">
+          <img src = "./imagenes/Santiago.png" width="80" height="50"></br>
+          <input type="button" class="btn btn-warning btn-md" value="Mostrar Santiago" id="Ssan">
+          <input type="button" class="btn btn-warning btn-md" value="Limpiar Data" id="sreiniciar" onclick="window.location.reload()"> <br>
+          <input type="checkbox" value="SQuinta" id="quintasan">
+          <label for="quintamex">5a Generación</label>
+          <input type="checkbox" value="SCuarta" id="cuartasan">
+          <label for="cuartamex">4a Generación</label>
+          <input type="checkbox" value="STercera" id="tercerasan">
+          <label for="terceramex">3a Generación</label>
+        </div></th>
+      </tr>
+    </table>
+</table>
 
-  <!-- <h1 style="text-align:center">Data Dashboard</h1> -->
-  <h2>Selecciona la Sede</h2>
-  <div id="botonesSede">
-
-    <input type="button" value="CDMX" id="cdmx">
-    <input type="button" value="Santiago" id="santiago">
-    <input type="button" value="Lima" id= "lima">
+    <div>
+        <div id="resultado"></div>
+         <div id="resultadoDos"></div>
     </div>
-        <!-- <h2>Generaciones</h2>
-       <! <ul>
-          <li><a href="">Primera</a></li>
-          <li><a href="">Segunda</a></li>
-          <li><a href="">Tercera</a></li>
-          <li><a href="">Actual</a></li>
-        </ul>
-      -->
-        <!--<div class="menu">
-          <h2>Estudiantes</h2>
-        </table>
-        <div>
-             <table style="width:100%" border = 2 px>
-               <tr>
-                 <th width = 250>Nombre</th>
-                 <th width = 230>Correo</th>
-                 <th width = 60>Turno</th>
-                 <th width = 70>Progreso</th>
-                 <th width = 70>Completado</th>
-               </tr>
-             </table>
+  </div>
+  <div>
 
+  </div>
+    </div>
+  <div id= "black"><img src="./imagenes/laboratoriaw.png" style="width: 100px;"></div>
 
-
-          </div>
-     -->
-          <!-- <div>
-            <h2>Nuestro Impacto</h2>
-          <footer style="width: 80%; height: 80%; border: 40px"><img src="image/impacto.JPG"alt="" srcset=""></footer>
-        </div> -->
-
-<div id= "black"><img src="./imagenes/laboratoriaw.png" style="width: 100px;"></div>
-    <script src="main.js"></script>
     <script src="data.js"></script>
+    <script src="main.js"></script>
+    </div>
+</form>
   </body>
 </html>
