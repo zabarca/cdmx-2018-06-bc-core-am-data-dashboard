@@ -2,9 +2,9 @@
 
 ## **Proceso de UX**
 
-Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde pasamos por diferentes etapas como:
+<!--Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde pasamos por diferentes etapas como:-->
 
-### **1. Descubrimiento e investigación**
+### **Descubrimiento e investigación**
 <!-- (En esta fase es donde vamos a tener ese proceso de investigación y acercamiento con el usuario, es donde vamos a obtener el conocimiento para poder saber a quién vamos a llegar, pero de manera más profunda. Es tener la empatía y el acercamiento necesario para conocerlo.
 
 También vamos a tener en cuenta al negocio, sus objetivos y a los stakeholders(involucrados)). -->
@@ -141,11 +141,12 @@ Al mostrar el prototipo reecibimos los siguientes comentarios:
 ![alt text](imagenes/comentarios.JPG)
 ![alt text](imagenes/comentarios1.JPG)
 ![alt text](imagenes/lucileanotaciones.jpeg)
+![alt text](imagenes/mejoraslu.jpeg)
 
 
 # Argumentacion de Diseño
 
-Se usan colores que representan la identidad de Laboratoria, en particular se usa fondo blanco por la cantidad de información que se visualiza.
+Usamos colores que representan la identidad de Laboratoria, en particular se usa fondo blanco por la cantidad de información que se visualiza.
 
 La data de las estudiantes se muestra mediante "Tarjetas" con su nombre, correo, turno, duración del programa y porcentaje completado.
 
