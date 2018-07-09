@@ -33,32 +33,32 @@ Al entrevistarlas todas expresaron su tedio y frustración al no poder concentra
 
 
 # **Pain points**
-●	Ir de archivo en archivo para obtener información del progreso de las alumnas
-●	Les absorbe demasiado tiempo
-●	Cálculos manuales
-●	No es fácil de utilizar
-●	Información dispersa
-●	Spreadsheets tarda en  cargar  por tanta información
-●	No es uniforme la información en todas las sedes
+*	Ir de archivo en archivo para obtener información del progreso de las alumnas
+*	Les absorbe demasiado tiempo
+*	Cálculos manuales
+*	No es fácil de utilizar
+*	Información dispersa
+*	Spreadsheets tarda en  cargar  por tanta información
+*	No es uniforme la información en todas las sedes
 
 # **Objetivos de los usuarios**
 
 Lo que esperan del Data Dashboard:
 
-➢	Visualizar la información fácil
-➢	Automatizado y procesado
-➢	Poder tomar decisiones
-➢	Muy entendible
-➢	Visualizar perfil por perfil
-➢	Poder filtrar por sede, generación
+*	Visualizar la información fácil
+*	Automatizado y procesado
+*	Poder tomar decisiones
+*	Muy entendible
+*	Visualizar perfil por perfil
+*	Poder filtrar por sede, generación
 
 También coinciden que los datos más relevantes que les agradaria visualizar en particular son: número total de estudiantes, número de deserciones y porcentaje de avance en LMS (Learning Management System).
 
-#**Objetivos del negocio**
+Objetivos del negocio
 Laboratoria tiene como objetivo empoderar al mayor número de mujeres a través de conocimiento en el ámbito Tech,  a la par las TM´s se encargan de darle seguimiento a las alumnas que están actualmente en el bootcamp siguiendo una rúbrica de evaluación para cada proyecto, lecturas y quizz realizados en el LMS, además de tener en cuenta las deserciones.
 
-#**Motivaciones del negocio para el data dashboard**
-En resumen se espera la siguiente funcionalidad del progama:
+# **Motivaciones del negocio para el data dashboard**
+En resumen se espera la siguiente funcionalidad del programa:
 
 * Listar y poder seleccionar sedes
 * Dentro de cada sede:
@@ -83,7 +83,7 @@ En resumen se espera la siguiente funcionalidad del progama:
   móviles, tablets, desktops
 
 
-### **2. Síntesis y definición**
+### **Síntesis y definición**
 <!-- (Dada la fase anterior de investigación, ahora vamos a tomar todos los datos más importantes y transformarlos en información valiosa para comenzar a orientarse a la solución. También vamos a entender lo que la empresa quiere de ese producto y comenzar a entender ambas visiones con el fin de encontrar un punto armónico) -->
 
 <!-- __1. Cuáles crees que son los datos más importantes a tener en cuenta para el Data Dashboard:__
@@ -118,16 +118,17 @@ Data proporcionada:
 ### **Ideación**
 <!-- (Acá se comienza a pensar esa solución tomando en cuenta la información recopilada y procesada) -->
 Al tener clara la problemática de las TM´s para poder alcanzar dichos objetivos optamos por hacer un sketch y diagrama de flujo sencillo de acuerdo a las necesidades presentadas.
-![alt text](imagenes/idea mike.jpg)
+
+![alt text](imagenes/ideamike.jpg)
 ![alt text](imagenes/sketch.jpg)
 
-### **4. Prototipado**
+### **Prototipado**
 <!-- (Esta es la fase creativa, donde se comienza a construir el Data dashboard con la información obtenida de las fases anteriores. Se reafirma crear la experiencia de usuario, donde la solución resuelve necesidades y facilita la vida)
 Sketch: (Adjuntar liga)Prototipo en figma: (Adjuntar liga) -->
-![alt text](imagenes/Página de inicio.JPG)
-![alt text](imagenes/Página de selección.JPG)
-![alt text](imagenes/Listado de alumnas por generación.JPG)
-![alt text](imagenes/Detalle de alumna.JPG)
+![alt text](imagenes/inicio.JPG)
+![alt text](imagenes/seleccion.JPG)
+![alt text](imagenes/listado.JPG)
+![alt text](imagenes/detalle.JPG)
 
 
 El objetivo del *Data Dashboard* es crear un producto cuya funcionalidad sea tener al día los avances de las estudiantes a través de una interfaz que sea sencilla, intuitiva y fácil de usar. Este producto está pensado en las Training Manager para que su trabajo sea más eficiente ya que ellas tienen la necesidad de revisar los avances y el progreso general y particular de las estudiantes de su propia sede.
@@ -143,13 +144,13 @@ Al mostrar el prototipo reecibimos los siguientes comentarios:
 
 
 # Argumentacion de Diseño
+
 Se usan colores que representan la identidad de Laboratoria, en particular se usa fondo blanco por la cantidad de información que se visualiza.
 
-Se propone un *Login* es para que las ***Training Manager***  tengan acceso personalizado, ya que ellas tienen información confidencial de todas las estudiantes. Las gráficas que se muestran fueron pensadas en su fácil lectura, ya que por su estructura se ven los datos de forma visual mucho más rápido ya que se requiere poder ver datos muy generales y a la vez también poder acceder a datos específicos.
+La data de las estudiantes se muestra mediante "Tarjetas" con su nombre, correo, turno, duración del programa y porcentaje completado.
 
-Todo esto se hace pensando en que su consulta será constante es por eso que tiene que ser una plataforma amigable y bastante intuitiva, los colores que utilizamos son los d Labratoria esto para seguir con la marca identificativa de laboratorio, Se muestra la propuesta gráfica del prototipo de Alta Fidelidad, se realizó en la plataforma *** FIGMA.***
+Se propone un *Login* es para que las ***Training Manager***  tengan acceso personalizado, ya que ellas tienen información confidencial de todas las estudiantes. 
 
-![alt text](imagenes/1.jpg)
-![alt text](imagenes/2.jpg)
-![alt text](imagenes/3.jpg)
-![alt text](imagenes/4.jpg)
+![alt text](imagenes/argumentacion.JPG)
+
+
