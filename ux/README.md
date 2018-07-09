@@ -141,7 +141,7 @@ Al mostrar el prototipo reecibimos los siguientes comentarios:
 ![alt text](imagenes/comentarios.JPG)
 ![alt text](imagenes/comentarios1.JPG)
 ![alt text](imagenes/lucileanotaciones.jpeg)
-![alt text](imagenes/mejoraslu.jpeg)
+![alt text](imagenes/mejoraslu.jpg)
 
 
 # Argumentacion de Diseño
@@ -150,8 +150,6 @@ Usamos colores que representan la identidad de Laboratoria, en particular se usa
 
 La data de las estudiantes se muestra mediante "Tarjetas" con su nombre, correo, turno, duración del programa y porcentaje completado.
 
-Se propone un *Login* es para que las ***Training Manager***  tengan acceso personalizado, ya que ellas tienen información confidencial de todas las estudiantes. 
+Se propone un *Login* es para que las ***Training Manager***  tengan acceso personalizado, ya que ellas tienen información confidencial de todas las estudiantes.
 
 ![alt text](imagenes/argumentacion.JPG)
-
-
