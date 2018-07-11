@@ -1,4 +1,13 @@
-
+p{
+  font-size: 1;
+}
+#cuerpo{
+  border: 3px solid #ffe521;
+  border-radius: 20px;
+  padding: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
 .renglon{
   width: 100%;
   border: 5px solid #ffe521;
@@ -32,5 +41,6 @@
   background-color: #FF009A;
   color: #FFFFFF;
   text-align: center;
+  border:1px #56f89a;
 }
 /* verde lab #56f89a rosa lab#ff009e rosa alexandra#FF009A*/

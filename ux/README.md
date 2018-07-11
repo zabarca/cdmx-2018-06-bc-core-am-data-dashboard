@@ -14,8 +14,8 @@ Contactamos a tres de las principales usuarias de nuestro producto.
 *	Lucile Baratier de Ciudad de México
 *	Karla Rejas de Guadalajara, México
 *	Alejandra Ramirez  de  Lima, Perú
-* Valentina Smith de Blanco Recoleta
-* Vanessa Pinheiro
+* Valentina Smith de Santiago
+* Vanessa Pinheiro de Brasil
 <!-- __Necesidades de las usuarias:__ -->
 <!-- __Objetivos de las usuarias:__ (Lo que quieren o esperan lograr) -->
 <!-- __Pain points:__ (En sus actividades diarias qué es lo que más les molesta u obstaculiza en el proceso de  realizar sus actividades/objetivos)

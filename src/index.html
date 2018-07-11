@@ -3,26 +3,59 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Data Dashboard</title>
+     <title>Data Dashboard</title> <!--titulo de la pestaña  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
       <link rel="icon" href="./imagenes/laboratoria.ico"> <!--icono de laboratoria que se ve en la pestaña  -->
      <!-- "meta hace la pagina escalable en los diferentes dispositivos" -->
+     <!--ligas para hacer la página responsive-->
      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   </head>
   <body>
-    <div class="contenedor">
-    <header>
+    <div class="contenedor"> <!--contenedor general -->
+    <header> <!--encabezado -->
     <h1><img src="Laboratoria.png" style="margin-top: 10px"></h1>
     <hr class="renglon"></header>
 <div id= "texto-inicio">Trabajamos para ser la principal fuente de talento tech femenino de América Latina para el mundo, transformando el futuro de miles de mujeres y las empresas que las reciben. </div>
+<!--inicia tabla del search-->
+<section id=tablaestudiante>
+      <input type="text" placeholder="Ingresa el nombre" id="name-to-search"> <!--aquí se ingresa el nombre a buscar-->
+      <button id="search" class="btn btn-warning btn-md">Buscar</button> <!--Nombre boton-->
+      <!--Tabla del buscador-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <table class="table table-striped">
+              <thead class= "thead-dark">
+                <tr>
+                  <th scope='row'>#</th>
+                  <th>Nombre</th> <!--Nombres de las columnas-->
+                  <th>Generacion</th>
+                  <th>Correo</th>
+                  <th>Nivel de Completitud %</th>
+                  <th>Desempeño</th>
+                  <th>Turno</th>
+                </tr>
+              </thead>
+              <tbody id='table-body'>
+                </thead>
+              </tbody>
+              </table>
+                <div id='result'></div> <!-- en caso de que no hubiera resultado manda mensaje-->
+          </div>
+        </div>
+      </div>
+    </section>
+
 <!-- <section id="data" class="container" style="display: none;"></section> -->
-<div class="container">
+<div class="container"> <!--contenedor de las tarjetas por sede-->
   <form method="post" name="formulario" id="tabladata">
     <h2 style="text-align:center">Selecciona la Sede</h2>
     <table style="width:100%" class="table table-striped" >
       <tr>
+        <!--columnas de los paises-->
         <th><div style="text-align:center">
           <img src = "./imagenes/Peru.png" width="80" height="50"></br>
           <input type="button" class="btn btn-warning btn-md" value="Mostrar Lima" id="Slima">
@@ -59,7 +92,7 @@
       </tr>
     </table>
 </table>
-
+<!--seccion  donde aparecen los resultado de las tarjetas-->
     <div>
         <div id="resultado"></div>
          <div id="resultadoDos"></div>
@@ -73,6 +106,8 @@
 
     <script src="data.js"></script>
     <script src="main.js"></script>
+    <!--jala la funcion del buscardor-->
+    <script>getData();</script>
     </div>
 </form>
   </body>
