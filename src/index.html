@@ -14,20 +14,24 @@
 
   </head>
   <body>
+      <div class="container">
     <div class="contenedor"> <!--contenedor general -->
     <header> <!--encabezado -->
     <h1><img src="Laboratoria.png" style="margin-top: 10px"></h1>
     <hr class="renglon"></header>
-<div id= "texto-inicio">Trabajamos para ser la principal fuente de talento tech femenino de América Latina para el mundo, transformando el futuro de miles de mujeres y las empresas que las reciben. </div>
+
 <!--inicia tabla del search-->
 <section id=tablaestudiante>
+  <div class="buscador">
       <input type="text" placeholder="Ingresa el nombre" id="name-to-search"> <!--aquí se ingresa el nombre a buscar-->
-      <button id="search" class="btn btn-warning btn-md">Buscar</button> <!--Nombre boton-->
+      <button id="search" class="btn btn-warning btn-md">Buscar</button> 
+    </div> <!--Nombre boton-->
+      
       <!--Tabla del buscador-->
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <table class="table table-striped">
+          <!-- <div class="col-lg"> -->
+            <table style="width:100%" class="table table-striped">
               <thead class= "thead-dark">
                 <tr>
                   <th scope='row'>#</th>
@@ -44,48 +48,47 @@
               </tbody>
               </table>
                 <div id='result'></div> <!-- en caso de que no hubiera resultado manda mensaje-->
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </section>
 
-<!-- <section id="data" class="container" style="display: none;"></section> -->
-<div class="container"> <!--contenedor de las tarjetas por sede-->
+ <!--contenedor de las tarjetas por sede-->
   <form method="post" name="formulario" id="tabladata">
-    <h2 style="text-align:center">Selecciona la Sede</h2>
+    <h2 style="text-align:center">Selecciona la Generación</h2>
     <table style="width:100%" class="table table-striped" >
       <tr>
         <!--columnas de los paises-->
         <th><div style="text-align:center">
-          <img src = "./imagenes/Peru.png" width="80" height="50"></br>
+          <img src = "./imagenes/Peru.png" width="80" height="50" style="margin: .5cm"></br>
           <input type="button" class="btn btn-warning btn-md" value="Mostrar Lima" id="Slima">
           <input type="button" class="btn btn-warning btn-md" value="Limpiar Data" id="lreiniciar" onclick="window.location.reload()"> <br>
           <input type="checkbox" value="LQuinta" id="quintalim">
-          <label for="quintalim">5a Generación</label>
+          <label for="quintalim">5a Generación</label><br>
           <input type="checkbox" name="LCuarta" id="cuartalim">
-          <label for="cuartalim">4a Generación</label>
+          <label for="cuartalim">4a Generación</label><br>
           <input type="checkbox" name="LTercera" id="terceralim">
           <label for="terceralim">3a Generación</label>
         </div></th>
         <th><div style="text-align:center">
-          <img src = "./imagenes/Mexico.png" width="80" height="50"></br>
+          <img src = "./imagenes/Mexico.png" width="80" height="50" style="margin: .5cm"></br>
           <input type="button" class="btn btn-warning btn-md" value="Mostrar México" id="Scdmx">
           <input type="button" class="btn btn-warning btn-md" value="Limpiar Data" id="creiniciar" onclick="window.location.reload()"> <br>
           <input type="checkbox" value="MQuinta" id="quintacdmx">
-          <label for="quintacdmx">5a Generación</label>
+          <label for="quintacdmx">5a Generación</label><br>
             <input type="checkbox" value="MCuarta" id="cuartacdmx">
-            <label for="cuartacdmx">4a Generación</label>
+            <label for="cuartacdmx">4a Generación</label><br>
             <input type="checkbox" value="MTercera" id="terceracdmx">
             <label for="terceracdmx">3a Generación</label>
           </div></th>
         <th><div style="text-align:center">
-          <img src = "./imagenes/Santiago.png" width="80" height="50"></br>
+          <img src = "./imagenes/Santiago.png" width="80" height="50" style="margin: .5cm"></br>
           <input type="button" class="btn btn-warning btn-md" value="Mostrar Santiago" id="Ssan">
           <input type="button" class="btn btn-warning btn-md" value="Limpiar Data" id="sreiniciar" onclick="window.location.reload()"> <br>
           <input type="checkbox" value="SQuinta" id="quintasan">
-          <label for="quintamex">5a Generación</label>
+          <label for="quintamex">5a Generación</label><br>
           <input type="checkbox" value="SCuarta" id="cuartasan">
-          <label for="cuartamex">4a Generación</label>
+          <label for="cuartamex">4a Generación</label><br>
           <input type="checkbox" value="STercera" id="tercerasan">
           <label for="terceramex">3a Generación</label>
         </div></th>
@@ -102,7 +105,7 @@
 
   </div>
     </div>
-  <div id= "black"><img src="./imagenes/laboratoriaw.png" style="width: 100px;"></div>
+  <!-- <div id= "black"><img src="./imagenes/laboratoriaw.png" style="width: 100px;"></div> -->
 
     <script src="data.js"></script>
     <script src="main.js"></script>

@@ -1,5 +1,5 @@
 p{
-  font-size: 1;
+  font-size: 2;
 }
 #cuerpo{
   border: 3px solid #ffe521;
@@ -19,28 +19,30 @@ p{
 }
 #black{
   background-color: black;
-  width: 90%;
+  /* width: 100%; */
   margin:0 auto;
 }
 .contenedor{
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin:0 auto;
 }
 .container{
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   display: inline-flex;
 }
 .card {
+  font-size: 1em;
+  font-style: oblique;
   width: 200px;
   height: 280px;
   display: inline-flex;
   margin: 0.5rem;
-  background-color: #FF009A;
-  color: #FFFFFF;
+  background-color: #ffe521;
+  color: black;
   text-align: center;
-  border:1px #56f89a;
+  border:1px #ff009e;
 }
 /* verde lab #56f89a rosa lab#ff009e rosa alexandra#FF009A*/
